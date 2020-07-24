@@ -1,8 +1,37 @@
 'use strict';
 
 
-var answerOne = prompt('What a day, no?');
-console.log(answerOne);
+var userName = prompt('Hey there, What\'s your name?');
+console.log(userName);
+{
+  document.getElementById("welcome").innerHTML = 
+  "Hey" + userName + "How are you?";
+}
+
+
+
+var answerTwo = prompt('Do I like hiking?');
+console.log(answerTwo);
+
+var answerThree = prompt('Is reading one of my favorite hobbies?');
+console.log(answerThree);
+
+var answerFour = prompt('Do I love animals?');
+console.log(answerFour);
+
+var answerFive = prompt('Is my favorite genre of music Polka?');
+console.log(answerFive);
+
+var answerSix = prompt('Have I wasted untold hours of my life on video games?');
+console.log(answerSix);
+
+
+
+
+
+
+
+
 
 if (answerOne === true) {
   console.log('Make sure to take time for yourself');
@@ -10,16 +39,3 @@ if (answerOne === true) {
   console.log('Glad to hear you\'re well');
 }
 
-var myBool = true;
-var anotherBool = false;
-var thirdBool = true;
-
-if (myBool && thirdBool) {
-  console.log('myBool and thirdBool are true');
-}
-else if (myBool || anotherBool) {
-  console.log('myBool OR anotherBool is true');
-}
-else if (thirdBool) {
-  console.log('thirdBool is true');
-}
