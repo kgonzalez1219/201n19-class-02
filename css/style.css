@@ -12,3 +12,8 @@ h2 {
 body {
   background-color:orange
 }
+
+ol {
+  margin: 30px;
+  list-style: square;
+}
