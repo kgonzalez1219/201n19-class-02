@@ -62,7 +62,28 @@ else if(answerSix == false) {
   alert('Yes, so many hours!');
 }
 
+var userGuess;
+var userGuessRight 
 
+while(userGuessRight)
+{
+
+    userGuess = prompt('Guess a number between1 and 10!');
+    if(userGuess >5 || <5)
+    {
+      userGuessRight = true;
+    }
+    else {
+      alert('Try again');
+      userGuessRight = false;
+    }
+}
+alert('You got it!')
+
+
+var stuff = stuff Array( yes, yes, yes);
+
+for(var stuff = yes; stuff)
 
 
 
