@@ -1,9 +1,10 @@
 h1 {
-  font-size: larger;
+  font-size: xx-large;
   color:rgb(0, 128, 53)
 }
 
 h2 {
+  margin-top: 25px;
   font-size: large;
   color:magenta;
   
@@ -14,6 +15,11 @@ body {
 }
 
 ol {
+  margin: 30px;
+  list-style: square;
+}
+
+ul  {
   margin: 30px;
   list-style: square;
 }
