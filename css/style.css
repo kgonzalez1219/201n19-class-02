@@ -11,6 +11,7 @@ header {
 h1 {
   font-size: xx-large;
   color:rgb(0, 128, 53)
+  
 }
 
 h2 {
@@ -32,4 +33,10 @@ ol {
 ul  {
   margin: 30px;
   list-style: square;
+}
+
+.fampic {
+  float:right;
+  margin: 10px;
+  padding: 30px;
 }
