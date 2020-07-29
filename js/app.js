@@ -2,12 +2,13 @@
 
 
 var userName = prompt('Hey there, What\'s your name?');
+alert("Hey " + userName + " hope you\'re well today");
 //console.log(userName);
 
 
 {
   document.getElementById("welcome").innerHTML =
-    "Hey" + userName + "Hope you\'re well today";
+    "Hey " + userName + " hope you\'re well today";
 }
 
 
@@ -89,5 +90,4 @@ for (var stuff = yes; stuff);
     console.log('Make sure to take time for yourself');
   } else {
     console.log('Glad to hear you\'re well');
-  }
-
+  } */
