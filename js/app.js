@@ -68,7 +68,7 @@ if (answerSix === "Yes" || answerSix === "Y") {
 
 //two new questions - not working
 
-var userGuess = 0;
+/*var userGuess = 0;
 var userGuessRight = prompt('Guess a number between 1 and 10.');
 
 while(userGuess < 4) {
@@ -83,6 +83,9 @@ if (userGuess === 4){
   userGuessRight = alert('Yup');
   score++
 }
+*/
+
+var imTired = ['sleep', 'work', 'procrastinate', 'take a short break'];
 
 
 
