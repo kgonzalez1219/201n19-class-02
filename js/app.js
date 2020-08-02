@@ -15,8 +15,7 @@ alert("Hey " + userName + " hope you\'re well today");
 
 //5 questions
 
-var score = 0;
-
+function questionOne() {
 var answerTwo = prompt('Do I like hiking?').toLowerCase();
 //console.log(answerTwo);
 if (answerTwo === "Yes" || answerTwo === "Y") {
@@ -25,7 +24,12 @@ if (answerTwo === "Yes" || answerTwo === "Y") {
 }else if (answerTwo === "No" || answerTwo === "N") {
   alert("I actually love Hiking");
 }
+}
 
+questionOne();
+
+
+function questionTwo(){
 var answerThree = prompt('Is reading one of my favorite hobbies?').toLowerCase();
 //console.log(answerThree);
 
@@ -35,7 +39,14 @@ if (answerThree === "Yes" || answerThree === "Y") {
 }else if (answerThree === "No" || answerThree === "N") {
   alert('I do love to read.');
 }
+}
 
+
+questionTwo();
+
+
+
+function questionThree() {
 var answerFour = prompt('Do I love animals?').toLowerCase();
 //console.log(answerFour);
 
@@ -45,7 +56,14 @@ if (answerFour === "Yes" || answerFour === "Y") {
 }else if (answerFour === "No" || answerFour === "N") {
   alert('I do like animals.');
 }
+}
 
+
+questionThree();
+
+
+
+function questionFour() {
 var answerFive = prompt('Is my favorite genre of music Polka?').toLowerCase();
 //console.log(answerFive);
 
@@ -55,7 +73,16 @@ if (answerFive === "Yes" || answerFive === "Y") {
 }else if (answerFive === "No" || answerFive === "N") {
   alert('Right, I couldn\'t pick just one though.');
 }
+}
 
+
+
+questionFour();
+
+
+
+
+function questionFive() {
 var answerSix = prompt('Have I wasted untold hours of my life on video games?').toLowerCase();
 //console.log(answerSix);
 
@@ -65,41 +92,5 @@ if (answerSix === "Yes" || answerSix === "Y") {
 }else if (answerSix === "No" || answerSix === "N") {
   alert('Yes, so many hours!');
 }
-
-//two new questions - not working
-
-/*var userGuess = 0;
-var userGuessRight = prompt('Guess a number between 1 and 10.');
-
-while(userGuess < 4) {
-  userGuess++;
-if (userGuess === 4){
-  userGuessRight = alert('Nope, it\'s 5');
-} else if (parseInt(userGuessRight) > 5) {
-  userGuessRight = prompt('Too high.');
-} else if (parseInt(userGuessRight) < 5) {
-  userGuessRight = prompt('Too Low');
-}else if (parseInt(userGuessRight) === 5){
-  userGuessRight = alert('Yup');
-  score++
 }
-*/
 
-var imTired = ['sleep', 'work', 'procrastinate', 'take a short break'];
-
-
-
-
-
-
-
-
-
-
-
-//
- /* if (answerOne === true) {
-    console.log('Make sure to take time for yourself');
-  } else {
-    console.log('Glad to hear you\'re well');
-  } */
