@@ -1,14 +1,16 @@
 'use strict';
+var userName;
+var score;
 
 //greeting
+function greeting() {
+  userName = prompt('Hey there, What\'s your name?').toUpperCase();
+  alert("Hey " + userName + " hope you\'re well today");
+  //console.log(userName);
 
-var userName = prompt('Hey there, What\'s your name?').toUpperCase();
-alert("Hey " + userName + " hope you\'re well today");
-//console.log(userName);
-
-
-{
+  
   document.getElementById("welcome").innerHTML =
+
     "Hey " + userName + " hope you\'re well today";
 }
 
@@ -38,6 +40,10 @@ if (answerThree === "Yes" || answerThree === "Y") {
   score++;
 }else if (answerThree === "No" || answerThree === "N") {
   alert('I do love to read.');
+
+  "Hey " + userName + " hope you\'re well today";
+  
+
 }
 }
 
