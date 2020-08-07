@@ -3,9 +3,10 @@ var userName;
 var score;
 
 //greeting
+
 function greeting() {
   userName = prompt('Hey there, What\'s your name?').toUpperCase();
-  alert("Hey " + userName + " hope you\'re well today");
+  alert("Hey " + userName + " hope you\'re well today!");
   //console.log(userName);
 
   
@@ -13,6 +14,7 @@ function greeting() {
 
     "Hey " + userName + " hope you\'re well today";
 }
+greeting();
 
 
 //5 questions
@@ -98,5 +100,9 @@ if (answerSix === "Yes" || answerSix === "Y") {
 }else if (answerSix === "No" || answerSix === "N") {
   alert('Yes, so many hours!');
 }
+
+questionFive();
+
+
 }
 
