@@ -12,7 +12,7 @@ function greeting() {
 
   document.getElementById("welcome").innerHTML =
 
-    "Hey " + userName + " hope you\'re well today";
+    "Hey " + userName + " hope you\'re doing well today!";
 }
 greeting();
 
@@ -21,10 +21,10 @@ greeting();
 
 function questionOne() {
   var answerTwo = prompt('Do I like hiking?');
-  if (answerTwo === "Yes" || answerTwo === "Y")
+  if (answerTwo === "yes" || answerTwo === "y")
     alert('Yes! I love Hiking');
-  else if (answerTwo === "No" ||
-    answerTwo === "N") {
+  else if (answerTwo === "no" ||
+    answerTwo === "n") {
     alert("I actually love Hiking");
   }
 }
@@ -105,12 +105,25 @@ function questionFive() {
 
 function guessingGame() {
   num = prompt("Guess a number between 1 and 10!");
-  if (num < 5 )
-  alert("Too low");
+  if (num < 5)
+    alert("Too low");
   else if (num > 5)
-  alert("Too High!");
+    alert("Too High!");
   else alert("You got it!");
 }
 
 guessingGame();
 
+var arrayGame = prompt('Guess one of my top four favorite places I\'ve visited.').toLowerCase();
+var places = ['singapore', 'hawaii', 'dubai', 'france'];
+
+for (var i = 0; i < 5; i++) {
+  if (arrayGame === places[0] || arrayGame === places[1] || arrayGame === places[2] || arrayGame === places[3])
+    arrayGame = alert('Yes, I loved it there. ');
+} else if (i !== 6) {
+  arrayGame = prompt('Nope, try again');
+}
+
+if (i === 5) {
+  arrayGame = alert('My top four favorite places I\'ve visited are singapore, hawaii, dubai and france.');
+}
